@@ -11,23 +11,31 @@
     height: 300px;
     width: 200px;
     background-color: blue;
+    margin-right: 10px;
 }
 .main {
     height: 400px;
     width: 700px;
     background-color: red;
+    padding: 10px;
 }
 .sub-content {
     height: 200px;
     width: 210px;
     background-color: yellow;
+    margin-right: 15px;
+
 }
 #advertisement {
     height: 120px;
     width: 660px;
     background-color: purple;
+    margin: 10px;
+
 }
 .row {
-    /* TODO - what should go here? */
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
 }
 
